@@ -1,0 +1,8 @@
+登陆服务器使用 unset http_proxy命令关闭代理
+用vim打开landing.py修改username和password变量
+用python命令运行脚本
+ping -c 4 www.baidu.com测试网络
+
+如果在使用过程中出现403 Forbidden错误，请再次使用 unset http_proxy 命令
+
+测试环境是Anaconda(py3.5) 没有http模块的情况，请自行安装
